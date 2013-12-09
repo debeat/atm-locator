@@ -1,0 +1,21 @@
+ATM Locator
+
+==========================================
+
+Simple application to find ATM from a given list of atms (you can change to your need for ex - a hospital or sports center) and show them in Google map.
+
+/*config.php*/
+Change Database setting 
+Change - define('GOOGLE_API_KEY','your google api key');
+
+import atmlocator.sql in your database
+It has sample data!!
+
+For this sample Application -
+  Cities are - Delhi, Chandigarh
+  States are - Delhi, Punjab
+You can make it dynamic from Database by having a city master and state master
+
+/*index.php*/
+$city = array('1' => 'Delhi', '2' => 'Chandigarh');
+$state = array('1' => 'Delhi', '2' => 'Punjab');
